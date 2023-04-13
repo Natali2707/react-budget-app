@@ -13,6 +13,7 @@ export interface Expense {
 export interface ExpensesContextState {
   expenses: Expense[]; // expenses-расходы
   deleteExpense: (id: number) => void;
+  addExpense: (expense: Expense) => void;
 }
 
 export interface ExpensesContextProviderProps {
