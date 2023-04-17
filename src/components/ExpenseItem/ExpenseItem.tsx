@@ -16,6 +16,7 @@ export const ExpenseItem = ({ expense }: ExpenseItemProps) => {
             <p> {expense.name}</p>
             <p>$ {expense.cost}</p>
             <div onClick={() => deleteExpense(expense.id)}><CloseButtonImg /></div>
+
         </StyledExpensesItem>
 
     )
