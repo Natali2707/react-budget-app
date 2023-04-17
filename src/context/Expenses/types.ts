@@ -1,18 +1,18 @@
 import { ReactNode } from "react";
 
 export interface Expense {
-  id: number;
+  id: string;
   name: string;
-  cost: number;
+  cost: string;
 }
 // interface ExpensesContextState {
 //     expenses: any[],  // expenses-расходы
-//     deleteExpense: (id: number) => void,
+//     deleteExpense: (id: string) => void,
 // } было , преобразуем:
 
 export interface ExpensesContextState {
   expenses: Expense[]; // expenses-расходы
-  deleteExpense: (id: number) => void;
+  deleteExpense: (id: string) => void;
   addExpense: (expense: Expense) => void;
 }
 

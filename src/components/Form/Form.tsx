@@ -6,9 +6,9 @@ import { v4 as uuidv4 } from "uuid";
 
 
 type UserFormValues = {
-  id: number;
+  id: string;
   name: string;
-  cost: number;
+  cost: string;
 }
 
 //handleSubmit -ф-я для связывания, reset для очистки полей инпутов
@@ -22,7 +22,7 @@ export const Form = () => {
     // alert(JSON.stringify(d));
     // console.log(data);
     // console.log(addExpense({ ...data, id: + uuidv4(), }));
-    addExpense({ ...data, id: + uuidv4(), })
+    addExpense({ ...data, id: uuidv4(), })
     reset();
   }
 

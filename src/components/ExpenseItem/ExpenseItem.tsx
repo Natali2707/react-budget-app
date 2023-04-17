@@ -11,12 +11,10 @@ export interface ExpenseItemProps {
 export const ExpenseItem = ({ expense }: ExpenseItemProps) => {
     const { deleteExpense } = useExpensesContext();
     return (
-        <StyledExpensesItem >
-            {/* <StyledExpensesItem key={expense.id}> */}
+        <StyledExpensesItem key={expense.name}>
             <p> {expense.name}</p>
             <p>$ {expense.cost}</p>
             <div onClick={() => deleteExpense(expense.id)}><CloseButtonImg /></div>
-
         </StyledExpensesItem>
 
     )

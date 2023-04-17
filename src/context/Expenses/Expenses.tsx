@@ -21,27 +21,27 @@ const useExpensesContextValue = () => {
         return {
             expenses: [
                 {
-                    id: 1,
+                    id: "1",
                     name: "shopping",
-                    cost: 100,
+                    cost: "100",
                 },
                 {
-                    id: 2,
+                    id: "2",
                     name: "drinking",
-                    cost: 200,
+                    cost: "200",
                 },
                 {
-                    id: 3,
+                    id: "3",
                     name: "relax",
-                    cost: 500,
+                    cost: "500",
                 },
                 {
-                    id: 4,
+                    id: "4",
                     name: "study",
-                    cost: 400,
+                    cost: "400",
                 }
             ],
-            deleteExpense: (id: number) => {
+            deleteExpense: (id: string) => {
                 setExpensesValue(ctx => ({
                     ...ctx,
                     expenses: ctx.expenses.filter((exp) => exp.id !== id)
