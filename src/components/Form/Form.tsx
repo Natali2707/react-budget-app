@@ -1,8 +1,9 @@
 import React from "react";
 import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import { StyledButton, StyledForm, StyledInput } from "./styles";
-import { useExpensesContext } from "../../context/Expenses/Expenses";
+import { useExpensesContext } from "context";
 import { v4 as uuidv4 } from "uuid";
+
 
 
 type UserFormValues = {

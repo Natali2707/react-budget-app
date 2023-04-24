@@ -15,7 +15,7 @@ const ExpenseContext = createContext<ExpensesContextState>({} as ExpensesContext
 
 //3. создаем свой КАСТОМНЫЙ хук useExpensesContextValue,который равняется ф-ции,
 //  где ф-я б содержать и хранить данные нашего контекста и вычислять эти данные:
-const useExpensesContextValue = () => {
+export const useExpensesContextValue = () => {
     //наш юсстэйт хранит (expenses: Expense) значения
     const [expensesValue, setExpensesValue] = useState<ExpensesContextState>(() => {
         return {

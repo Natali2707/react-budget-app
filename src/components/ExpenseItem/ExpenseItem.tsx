@@ -1,3 +1,4 @@
+import { useCurrenciesContext } from "context";
 import { useExpensesContext } from "../../context/Expenses/Expenses"
 import { Expense } from "../../context/Expenses/types";
 import { CloseButtonImg } from "../CloseButtonImg/CloseButtonImg";
@@ -10,10 +11,11 @@ export interface ExpenseItemProps {
 
 export const ExpenseItem = ({ expense }: ExpenseItemProps) => {
     const { deleteExpense } = useExpensesContext();
+    const { currency } = useCurrenciesContext()
     return (
         <StyledExpensesItem key={expense.name}>
             <p> {expense.name}</p>
-            <p>$ {expense.cost}</p>
+            <p> {currency} {expense.cost}</p>
             <div onClick={() => deleteExpense(expense.id)}><CloseButtonImg /></div>
         </StyledExpensesItem>
 
