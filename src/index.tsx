@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { App } from "./App";
 import { GlobalStyles } from "./UI/GlobalStyles";
-import { CurrencyContextProvider, ExpensesContextProvider } from "context";
+import { BudgetContextProvider, CurrencyContextProvider, ExpensesContextProvider } from "context";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -9,8 +9,10 @@ const root = ReactDOM.createRoot(
 root.render(
   <ExpensesContextProvider>
     <CurrencyContextProvider>
-      <GlobalStyles />
-      <App />
+      <BudgetContextProvider>
+        <GlobalStyles />
+        <App />
+      </BudgetContextProvider>
     </CurrencyContextProvider>
   </ExpensesContextProvider>
 );

@@ -14,6 +14,12 @@ import {
   useCurrenciesContext,
 } from "./CurrencyContext/CurrencyContext";
 
+import {
+  BudgetContextProvider,
+  useBudgetContext,
+  useBudgetContextValue,
+} from "./BudgetContext/BudgetContext";
+
 export {
   useExpensesContext,
   useExpensesContextValue,
@@ -21,6 +27,9 @@ export {
   CurrencyContextProvider,
   useCurrencyContextValue,
   useCurrenciesContext,
+  BudgetContextProvider,
+  useBudgetContext,
+  useBudgetContextValue,
 };
 
 export type { ExpensesContextProviderProps, Expense, Option };

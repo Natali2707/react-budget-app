@@ -13,7 +13,6 @@ const StyledInput = styled.input`
   line-height: 19px;
   border: none;
   padding: 15px 20px;
-  width: 100%;
   ::placeholder {
     color: #999999;
   }

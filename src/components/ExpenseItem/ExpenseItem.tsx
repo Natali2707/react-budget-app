@@ -14,7 +14,6 @@ export const ExpenseItem = ({ expense }: ExpenseItemProps) => {
         <StyledExpensesItem key={expense.name}>
             <p> {expense.name}</p>
             <p> <Badge expense={expense} /></p>
-            {/* <p> {currency} {expense.cost}</p> */}
             <div onClick={() => deleteExpense(expense.id)}><CloseButtonImg /></div>
         </StyledExpensesItem>
 

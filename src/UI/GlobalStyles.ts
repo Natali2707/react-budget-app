@@ -2,7 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
     body {
-       /* background-color: lightgray; */
+         width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
     }
     h1, h3, p {
         margin: 0;
