@@ -1,14 +1,24 @@
-import React from "react"
-import { StyledRemain } from "./styles"
-import { useCurrenciesContext, useExpensesContext } from "context";
+import React, { useEffect, useState } from "react"
+import { StyledInfo, StyledRemain } from "./styles"
+import { useBudgetContext, useCurrenciesContext, useExpensesContext } from "context";
+
+
 
 export const Remain = () => {
     const { expenses } = useExpensesContext();
-    const { currency } = useCurrenciesContext()
+    const { currency } = useCurrenciesContext();
+    const { budget } = useBudgetContext();
 
-    // const remaining=
-    // budget-expenses.reduce((total, {cost})=>total+cost, 0);
+    const remaining = budget - expenses.reduce((spent, expense) => spent + Number(expense.cost), 0);
+
+    const isOverBudget = remaining < 0;
     return (
-        <StyledRemain> Remaining: {currency} 2000</StyledRemain>
+        <StyledRemain isOverBudget={isOverBudget}>
+            <StyledInfo isOverBudget={isOverBudget}>
+                {isOverBudget
+                    ? `Overspending by ${currency}${Math.abs(remaining)}`
+                    : `Remaining: ${currency}${remaining}`}
+            </StyledInfo>
+        </StyledRemain>
     )
 }

@@ -1,15 +1,15 @@
 import { SelectCurrency } from "components/Select/Select";
 import { Head } from "./styles";
-import { Badget, Remain, Spent } from "components";
+import { Budget, Remain, Spent } from "components";
 
-export const BadgetApp = () => {
+export const BudgetApp = () => {
     return (
         <>
             <Head>
                 <h2>Budget App</h2>
                 <SelectCurrency />
             </Head>
-            <Badget />
+            <Budget />
             <Remain />
             <Spent />
         </>

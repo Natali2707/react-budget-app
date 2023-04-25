@@ -10,7 +10,7 @@ export const useBudgetContextValue = () => {
             addBudget: (budget: number) => {
                 setBudgetValue((ctx) => ({
                     ...ctx,
-                    budget: (budget)
+                    budget: budget,
                 }));
             },
         };
