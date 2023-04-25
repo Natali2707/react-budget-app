@@ -1,5 +1,4 @@
 import { useCurrenciesContext } from "context";
-import React from "react";
 import Select from "react-select";
 
 export const SelectCurrency = () => {
@@ -9,3 +8,5 @@ export const SelectCurrency = () => {
         />
     )
 }
+export { Select };
+

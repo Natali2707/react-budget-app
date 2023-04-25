@@ -8,7 +8,7 @@ export const ExpensesList = () => {
     //  то что вернет юзконтекст, запишем в переменную rezult
     // console.log(rezult);
     ///**** *ИЛИ** это то же самое, но с деструктуризацией:
-    // const { expenses } = useContext(ExpenseContext) // useContext-это исп контекст, который нам 
+    // const { expenses } = useContext(ExpenseContext) // useContext-это исп контекст, который нам
     // нужен, то что вернет юзконтекст, запишем в переменную rezult
     // console.log(expenses);
 
