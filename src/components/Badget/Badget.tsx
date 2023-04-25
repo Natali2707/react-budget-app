@@ -1,9 +1,9 @@
 import { useCurrenciesContext } from "context";
-import { StyledBadge } from "./styles";
+import { Edit, StyledBadget } from "./styles";
 
 export const Badget = () => {
     const { currency } = useCurrenciesContext()
     return (
-        <StyledBadge >Budget: {currency}3000</StyledBadge >
+        <StyledBadget >Budget: {currency}3000 <p><Edit>Edit</Edit></p></StyledBadget >
     )
 }

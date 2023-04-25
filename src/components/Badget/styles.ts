@@ -3,8 +3,8 @@ import styled from "styled-components";
 const StyledBadgeWrapper = styled.div`
   display: grid;
 `;
-const StyledBadge = styled.div`
-  display: grid;
+const StyledBadget = styled.div`
+  display: flex;
   width: 100%;
   height: 100px;
   background: #7cc6fe;
@@ -14,6 +14,17 @@ const StyledBadge = styled.div`
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  justify-content: space-between;
 `;
 
-export { StyledBadgeWrapper, StyledBadge };
+const Edit = styled.button`
+  width: 85px;
+  height: 36px;
+  margin-right: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: none;
+`;
+export { StyledBadgeWrapper, StyledBadget, Edit };
