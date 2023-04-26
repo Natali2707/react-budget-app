@@ -26,24 +26,29 @@ This application will calculate your expenses for you, indicate the balance of f
 
 ### Built With тNextPakages & Libraries:
 
-<ul>
-    <li>React</li>
-    <li>TypeScript</li>
-    <li>GH-pages</li>
-    <li>Styled Components</li>
-    <li>React Hook Form</li>
-    <li>React Select</li>
-    <li>UUID</li>
-</ul>
-
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[TypeScript.js]: https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[TypeScript.js]: https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript&logoColor=61DAFB
 [TypeScript-url]: https://www.typescriptlang.org/
+[GH-pages.js]: https://img.shields.io/badge/GH-pages-20232A?style=for-the-badge&logo=gh-pages&logoColor=61DAFB
+[GH-pages-url]: https://docs.github.com/en/pages
+[styled-components.js]: https://img.shields.io/badge/Styled%20Components-20232A?style=for-the-badge&logo=Styled%20Components&logoColor=61DAFB
+[styled-components-url]: https://styled-components.com/
+[react-hook-form.js]: https://img.shields.io/badge/React%20Hook%20Form-20232A?style=for-the-badge&logo=React%20Hook%20Form&logoColor=61DAFB
+[react-hook-form-url]: https://react-hook-form.com/
+[react-select.js]: https://img.shields.io/badge/React%20Select-20232A?style=for-the-badge&logo=React%20Select&logoColor=61DAFB
+[react-select-url]: https://react-select.com/home
+[uuid.js]: https://img.shields.io/badge/UUID-20232A?style=for-the-badge&logo=UUID&logoColor=61DAFB
+[uuid-url]: https://www.npmjs.com/package/uuid
 
 - [![React][React.js]][React-url]
 
 - [![TypeScript][TypeScript.js]][TypeScript-url]
+- [![GH-pages][GH-pages.js]][GH-pages-url]
+- [![styled-components][styled-components.js]][styled-components-url]
+- [![react-hook-form][react-hook-form.js]][react-hook-form-url]
+- [![react-select][react-select.js]][react-select-url]
+- [![uuid][uuid.js]][uuid-url]
 
 ## Contact
 
