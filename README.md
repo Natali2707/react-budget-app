@@ -43,7 +43,7 @@ This application will calculate your expenses for you, indicate the balance of f
 
 - [![React][React.js]][React-url]
 
-- [![TypeScript][TypeScript.js]][TypeScript]
+- [![TypeScript][TypeScript.js]][TypeScript-url]
 
 ## Contact
 
