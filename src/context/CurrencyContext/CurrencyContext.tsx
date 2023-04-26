@@ -19,7 +19,6 @@ const options: Option[] = [
 
 const CurrencyContext = createContext<CurrencyContextState>({} as CurrencyContextState)
 
-//  создаем свой КАСТОМНЫЙ хук:
 export const useCurrencyContextValue = () => {
 
     const [currencyValue, setCurrencyValue] = useState<CurrencyContextState>(() => {
@@ -41,7 +40,6 @@ export const useCurrencyContextValue = () => {
     return currencyValue;
 };
 
-// созд свой соб хук, кот вызывает хук useContext и берет контекст из (CurrencyContext)
 export const useCurrenciesContext = () => useContext(CurrencyContext);
 export const CurrencyContextProvider = ({ children }: CurrencyContextProviderProps) => {
     return <CurrencyContext.Provider value={useCurrencyContextValue()}>

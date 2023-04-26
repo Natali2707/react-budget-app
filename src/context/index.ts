@@ -12,6 +12,8 @@ import {
   useBudgetContextValue,
 } from "./BudgetContext/BudgetContext";
 
+import { AppContextProvider } from "./CombineContext";
+
 export {
   useExpensesContext,
   ExpensesContextProvider,
@@ -20,6 +22,7 @@ export {
   BudgetContextProvider,
   useBudgetContext,
   useBudgetContextValue,
+  AppContextProvider,
 };
 
 export type { ExpensesContextProviderProps, Expense, Option };
