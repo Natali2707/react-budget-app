@@ -38,20 +38,15 @@ This application will calculate your expenses for you, indicate the balance of f
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[HTML-5]: https://www.w3.org/html/logo/
-[HTML-5-url]: http://htmlbook.ru/html5
+[TypeScript.js]: https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[TypeScript-url]: https://www.typescriptlang.org/
 
 - [![React][React.js]][React-url]
 
-- [![HTML-5][LHTML-5.com]][HTML-5-url]
-- [![HTML-5][HTML-5-url]
+- [![TypeScript][TypeScript.js]][TypeScript]
 
 ## Contact
 
-<h2>Contact</h2>
-
-<p style="padding:20px 0;">Your Name -  <a href="https://github.com/alesijbusch" target="_blank">Alesia Bushkevich</a> - <a href="mailto:alesijbusch.gmail.com" target="_blank">alesijbusch.gmail.com</a></p>
-
-My name-Natallia - [@mail.ru]- alisevich.nata@mail.ru
+My name-Natallia Alisevich- [@mail.ru]- alisevich.nata@mail.ru
 
 Project Link: [https://github.com/Natali2707/react-budget-app](https://github.com/Natali2707/react-budget-app)
