@@ -9,10 +9,6 @@ export const Budget = () => {
     const { budget, addBudget } = useBudgetContext();
     const [isEdit, setIsEdit] = useToggle(false);
 
-    const handleClickEdit = () => {
-        setIsEdit(true);
-    }
-
     const [inputValue, setInputValue] = useState<number>(0);
 
     const handleInput = (e: ChangeEvent<HTMLInputElement>) => {
@@ -35,7 +31,7 @@ export const Budget = () => {
             ) : (
                 <>
                     Budget: {currency} {budget}
-                    <p><Edit onClick={handleClickEdit}>Edit</Edit></p>
+                    <p><Edit onClick={setIsEdit}>Edit</Edit></p>
                 </>
             )}
         </StyledBudget >
