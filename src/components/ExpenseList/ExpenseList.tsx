@@ -1,18 +1,6 @@
-// import { ExpenseItem } from "components"
-// import { Expense } from "context"
-
-
-
-// export const ExpenseList = (expense: Expense) => {
-//     return (
-//         <ExpenseItem expense={expense} key={expense.id} />
-//     )
-// }
-
-
-// import React, { useContext } from 'react'
 import { ExpenseItem } from "components";
 import { useExpensesContext } from "context";
+import { useDebounce } from "hooks/useDebounce";
 
 export const ExpensesList = () => {
 
@@ -27,12 +15,13 @@ export const ExpensesList = () => {
     // 6. c новым хуком из expenses убираем импорты и сокращаем код до такого:
     const { expenses } = useExpensesContext();
     console.log(expenses);
+    const useExpenseDebounce = useDebounce(expenses);
 
     return (
         <div>
             <h2>Expenses</h2>
             {
-                expenses.map((expense) => {
+                useExpenseDebounce.map((expense) => {
                     return <ExpenseItem key={expense.id} expense={expense} />
                 })}</div>
     )
