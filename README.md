@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+<a name="react-budget-app"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<div align="center">
+  <a href="https://github.com/Natali2707/react-budget-app">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-## Available Scripts
+  <h3 align="center">React-Budget-App</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    An application that will help you calculate expenses and save your budget!
+    <br />
+    <a href="https://github.com/Natali2707/react-budget-app"><strong>Explore this App >>>></strong></a>
+    <br />
+    <br />
+    <a href="https://natali2707.github.io/react-budget-app/">View Demo</a>
+  </p>
+</div>
 
-### `npm start`
+## About The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="/preview/view-budget-app.png" style="width: 70%; margin: 0 auto!important; display: block!important;">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This application will calculate your expenses for you, indicate the balance of funds. And warn of overspending.
 
-### `npm test`
+### Built With тNextPakages & Libraries:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<ul>
+    <li>React</li>
+    <li>TypeScript</li>
+    <li>GH-pages</li>
+    <li>Styled Components</li>
+    <li>React Hook Form</li>
+    <li>React Select</li>
+    <li>UUID</li>
+</ul>
 
-### `npm run build`
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[HTML-5]: https://www.w3.org/html/logo/
+[HTML-5-url]: http://htmlbook.ru/html5
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [![React][React.js]][React-url]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [![HTML-5][LHTML-5.com]][HTML-5-url]
+- [![HTML-5][HTML-5-url]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact
 
-### `npm run eject`
+<h2>Contact</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p style="padding:20px 0;">Your Name -  <a href="https://github.com/alesijbusch" target="_blank">Alesia Bushkevich</a> - <a href="mailto:alesijbusch.gmail.com" target="_blank">alesijbusch.gmail.com</a></p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+My name-Natallia - [@mail.ru]- alisevich.nata@mail.ru
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Project Link: [https://github.com/Natali2707/react-budget-app](https://github.com/Natali2707/react-budget-app)
