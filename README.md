@@ -24,7 +24,7 @@
 
 This application will calculate your expenses for you, indicate the balance of funds. And warn of overspending.
 
-### Built With тNextPakages & Libraries:
+### Built With Next Pakages & Libraries:
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/

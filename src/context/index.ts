@@ -1,18 +1,10 @@
-import {
-  useExpensesContext,
-  useExpensesContextValue,
-  ExpensesContextProvider,
-} from "./Expenses/Expenses";
+import { useExpensesContext, ExpensesContextProvider } from "./Expenses/Expenses";
 
 import { ExpensesContextProviderProps, Expense } from "./Expenses/types";
 
 import { Option } from "./CurrencyContext/types";
 
-import {
-  CurrencyContextProvider,
-  useCurrencyContextValue,
-  useCurrenciesContext,
-} from "./CurrencyContext/CurrencyContext";
+import { CurrencyContextProvider, useCurrenciesContext } from "./CurrencyContext/CurrencyContext";
 
 import {
   BudgetContextProvider,
@@ -22,10 +14,8 @@ import {
 
 export {
   useExpensesContext,
-  useExpensesContextValue,
   ExpensesContextProvider,
   CurrencyContextProvider,
-  useCurrencyContextValue,
   useCurrenciesContext,
   BudgetContextProvider,
   useBudgetContext,

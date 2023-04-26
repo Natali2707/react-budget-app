@@ -1,7 +1,7 @@
 import { Expense, useCurrenciesContext, useExpensesContext } from "context";
-import { CloseButtonImg } from "../CloseButtonImg/CloseButtonImg";
 import { StyledExpensesItem } from "./styles";
 import { Badge } from "components";
+import { CloseButtonImg } from "assets";
 
 export interface ExpenseItemProps {
     expense: Expense,

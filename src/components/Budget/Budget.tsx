@@ -1,12 +1,13 @@
 import { useBudgetContext, useCurrenciesContext } from "context";
 import { BudgetButtonSave, Edit, StyledBudget, StyledInput } from "./styles";
 import { ChangeEvent, useState } from "react";
+import { useToggle } from "hooks/useToogle";
 
 
 export const Budget = () => {
     const { currency } = useCurrenciesContext();
     const { budget, addBudget } = useBudgetContext();
-    const [isEdit, setIsEdit] = useState<boolean>(false);
+    const [isEdit, setIsEdit] = useToggle(false);
 
     const handleClickEdit = () => {
         setIsEdit(true);
