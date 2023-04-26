@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Natali2707/react-budget-app">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="/preview/calculator.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">React-Budget-App</h3>
