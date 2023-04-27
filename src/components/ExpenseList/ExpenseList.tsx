@@ -4,7 +4,6 @@ import { useDebounce } from "hooks/useDebounce";
 
 export const ExpensesList = () => {
     const { expenses } = useExpensesContext();
-    console.log(expenses);
     const useExpenseDebounce = useDebounce(expenses);
     return (
         <div>
