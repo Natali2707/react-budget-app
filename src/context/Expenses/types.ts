@@ -5,13 +5,8 @@ export interface Expense {
   name: string;
   cost: string;
 }
-// interface ExpensesContextState {
-//     expenses: any[],  // expenses-расходы
-//     deleteExpense: (id: string) => void,
-// } было , преобразуем:
-
 export interface ExpensesContextState {
-  expenses: Expense[]; // expenses-расходы
+  expenses: Expense[];
   deleteExpense: (id: string) => void;
   addExpense: (expense: Expense) => void;
 }

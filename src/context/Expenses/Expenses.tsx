@@ -38,8 +38,7 @@ export const useExpensesContextValue = () => {
             addExpense: (expense: Expense) => {
                 setExpensesValue((ctx) => ({
                     ...ctx,
-                    expenses: [...ctx.expenses, expense] // в ключ экспенсис возьми дополнит
-                    // значение кот есть и добавь еще в конец массива дополнительно 1 объект 
+                    expenses: [...ctx.expenses, expense] 
                 }))
             }
         };

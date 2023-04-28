@@ -7,7 +7,7 @@ interface Option {
 }
 
 interface CurrencyContextState {
-  options: Option[]; //   currency-валюта
+  options: Option[]; 
   option: Option;
   handleTips: (event: SingleValue<Option>) => void;
   currency: string;

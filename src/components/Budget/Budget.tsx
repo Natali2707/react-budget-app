@@ -7,7 +7,7 @@ import { useToggle } from "hooks/useToogle";
 export const Budget = () => {
     const { currency } = useCurrenciesContext();
     const { budget, addBudget } = useBudgetContext();
-    const [isEdit, setIsEdit] = useToggle(false);
+    const [isEdit, setIsEdit] = useToggle(true);
 
     const [inputValue, setInputValue] = useState<number>(0);
 
@@ -16,7 +16,7 @@ export const Budget = () => {
     };
 
     const handleSave = () => {
-        setIsEdit(!isEdit);
+        setIsEdit(isEdit);
         addBudget(inputValue);
     };
 
